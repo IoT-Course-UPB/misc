@@ -1,0 +1,199 @@
+{
+	"info": {
+		"_postman_id": "ca71a36d-8b40-4085-8496-99763129f407",
+		"name": "Proiect",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Status",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:5000/status",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"status"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Status Sensor",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:5000/status_sensor",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"status_sensor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Status Actuator",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:5000/status_actuator",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"status_actuator"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Start All",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:5000/start",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"start"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Stop All",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:5000/stop",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"stop"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Start Sensor",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:5000/start_sensor",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"start_sensor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Stop Sensor",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:5000/stop_sensor",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"stop_sensor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Start Actuator",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:5000/start_actuator",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"start_actuator"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Stop Actuator",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:5000/stop_actuator",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"stop_actuator"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Set Actuator",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "state",
+							"value": "25",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:5000/set_actuator",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"set_actuator"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
